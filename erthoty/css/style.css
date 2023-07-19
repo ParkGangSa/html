@@ -1,0 +1,522 @@
+﻿header{width:100%;
+        border-top:2px solid #50b5ff;
+        border-bottom:1px solid #ddd;
+        height:62px;}
+#headerWrap{width:1092px;
+            margin:0 auto;
+            position:relative;}
+
+#mainlogo{padding-top:10px;}
+
+#utill{position:absolute;
+        top:17px;
+        right:0;}
+#utill p{float:left;
+         margin-left:5px;}
+#utill p a{display:block;
+           width:64px;
+           height:28px;
+           background:#f06;
+           text-align: center;
+           color:#fff;
+           font-size:13px;
+           line-height:28px;
+border:1px solid rgba(0,0,0,0.2);
+border-left:0;}
+
+#utill .login a{background:#f49600;}
+#utill .join a{background:#50b5ff;}
+
+.search{position:absolute;
+       top:17px;
+       right:150px;}
+
+.search input{
+    width:143px;
+    height:26px;
+    border:1px solid #ccc;
+ background:url(../images/icon_search2.png) no-repeat 154px center;
+   padding-right:25px;
+   padding-left:10px;
+}
+
+#gnb{position:absolute;
+     top:21px; left:208px;}
+#gnb ul{}
+#gnb ul li{float:left; margin-right:50px;}
+#gnb ul li a{color:#333;
+             font-weight:500;}
+
+
+/*콘텐츠영역*/
+
+#container{}
+
+.mainVisual{width:100%;
+            height:454px;
+  background:url(../images/key_bg.jpg) center 0 no-repeat;
+  background-size:cover;}
+
+.mainTitle{width:1092px;
+          margin:0 auto;
+          color:#fff;
+          text-align: center;
+          padding-top:80px;}
+.mainTitle h2{font-size:40px;
+              line-height: 40px;
+              margin-bottom:15px;}
+.mainTitle p{font-size:24px;}
+
+.mainSC{width:600px;
+        height:100px;
+        background:rgba(0,0,0,0.65);
+        margin:0 auto;
+        border-radius:5px;
+        margin-top:60px;
+        padding:20px;
+        position:relative;}
+
+.mainSC .text{margin-bottom:8px;}
+.mainSC .text input{
+            width:530px;
+            height:50px;
+            font-size:16px;
+background:#fff url(../images/icon_search1.gif) no-repeat right 0;
+    border:none;
+    padding-left:15px;
+    padding-right:55px;
+}
+
+.mainSC .keyword{color:#fff; 
+                 font-size:14px;}
+.mainSC .keyword a{color:#fff;}
+.mainSC .keyword a:hover{text-decoration: underline;}
+
+.mainSC .map{position:absolute;
+             top:78px;
+             right:20px;}
+.mainSC .map a{color:#fff;
+               font-size:14px;}
+
+
+/*콘텐츠영역 - how to*/
+
+
+.howto{width:1092px;
+       margin:70px auto;}
+.howto h3{text-align: center;
+          font-size:26px;
+          color:#333;
+          margin-bottom:30px;}
+
+.howto ul{}
+.howto ul li{float:left;
+             width:348px;
+             margin-right:24px;}
+.howto ul li:last-child{margin-right:0;}
+
+.howto li .photo{margin-bottom:30px;}
+.howto li .title{text-align: center;
+                 font-size:18px;
+                 color:#0087ea;
+                 font-weight:500;}
+.howto li .text{font-size:14px;
+                color:#666;
+                margin-top:22px;}
+
+.howto li img{vertical-align: top}
+
+.howto li:hover .photo{
+    box-shadow:3px 3px 8px #ccc;
+             /*가로 세로 크기 색상
+              크기: 단순한 크기만 담당하는 것이 아니고
+                 번짐정도를 함께 설정가능함.
+    text-shadow:글자에 그림자주는 속성
+            */
+    transition:all 0.6s;}
+
+.howto .more{margin-top:25px;}
+.howto .more a{width:100%; 
+              display: block;
+              height:24px;
+              text-align: center;
+              font-size:14px;
+              color:#f49600;
+              text-decoration: underline;}
+
+.howto .more a:hover{text-decoration: none;}
+
+
+
+.plan{width:100%; 
+      background:#f0f0f0;
+      padding:70px 0}
+
+.planin{width:1092px;
+        margin:0 auto;}
+
+.planin h3{font-size:26px;
+            color:#333;
+            text-align: center;
+            margin-bottom:10px;}
+.planin .subTit{margin-bottom:30px;
+               font-size:16px;
+                color:#666;
+                text-align: center;}
+
+
+.planin ul{}
+.planin li{width:346px;
+           float:left;
+           margin-right:24px;
+           position: relative;
+          background:#fff;
+         padding-bottom:15px;
+         margin-bottom:24px;
+        border:1px solid #ddd;
+         }
+
+.planin li a{color:#666; font-size:14px;}
+
+.planin .plan03, .planin .plan06{margin-right:0;}
+
+.planin li .photo{width:100%;
+                  height:200px;
+                  overflow: hidden;}
+
+.planin li .photo img{width:100%;
+                     height:100%;}
+
+.planin li:hover img{transform: scale(1.2);
+                            transition:all 2s;} 
+
+/*
+transform 변형시키는 속성
+scale(1.2) = 120%
+
+사다리꼴
+skew(30deg) = 30도
+  -skewX()
+  -skewY()
+
+회전
+rotate()  deg
+*/
+
+.planin li .info{position:absolute;
+                 top:142px;
+                 left:0;
+                 width:316px;
+                 height:48px;
+background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.8));
+    padding-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.planin li .info p{float:left;
+                  margin-right:5px;
+                  margin-bottom:1px;
+                   font-size:14px;}
+
+.planin li .day{color:#999;}
+.planin li .date{color:#179dff;}
+
+.planin li .info .title{width:100%;
+                    color:#fff;
+                   font-size:16px;
+                   margin-right:0;}
+
+
+.planin li .theme{
+    margin-top:15px; margin-left:15px;}
+.planin li .place{
+    margin-top:6px;
+    margin-left:15px;
+}
+.planin li .user{
+    margin-top:6px;
+    margin-left:15px;
+background:url(../images/icon_user.png) no-repeat;
+    background-position:0 center;
+    padding-left:20px;
+}
+
+.planin li .count{position:absolute;
+                  top:215px;
+                  right:15px;}
+.planin li .count p{float:left; 
+                    margin-left:10px;
+            background-repeat: no-repeat;
+            background-position:0 center;}
+
+.planin li .count .spot{
+background-image: url(../images/icon_spot.png);
+padding-left:15px;
+}
+
+.planin li .count .view{
+background-image:url(../images/icon_view.png);
+padding-left:20px;
+}
+
+.planin li .count .copy{
+background-image: url(../images/icon_copy.png);
+padding-left:15px;
+}
+ 
+.planin .more{width:346px;
+              border:1px solid #ddd;
+              background:#fff;
+              margin:0 auto;}
+.planin .more a{display:block;
+                width:100%;
+                font-size:14px;
+                color:#666;
+                text-align: center;
+                padding:12px 0}
+
+
+/*tip영역*/
+
+
+.tip{width:1092px;
+     margin:70px auto;}
+
+.tip h3{text-align:center;
+        font-size:26px;
+        color:#333;
+        margin-bottom:10px;}
+/*
+ 클래스 이름에 들어가는 것: 숫자,영어(대소문자 구별함),
+                        -, _
+                        숫자만x
+                        숫자가 맨 앞에 오는것x
+    ex) main_title(x)
+        main-title(△)
+        mainTitle(o) -> 띄어쓰기부분 대문자 처리
+*/
+
+.tip .subTit{color:#666;
+             text-align: center;
+             margin-bottom:30px;}
+
+.tip ul{}
+.tip li{width:259px;
+        height:310px;
+        float:left;
+        margin-right:16px;
+        margin-bottom: 16px;
+        text-align: center;
+        border:1px solid #ddd;
+        position:relative;}
+/*
+첫번째 li와 마지막 li의 너비는 536px
+
+*/
+.tip .t01{width:536px;}
+.tip .t03{margin-right:0;}
+.tip .t06{width:536px; margin-right:0;}
+
+
+
+
+.tip li .photo{width:100%;
+                height:159px;
+                overflow: hidden;}
+
+.tip li .photo img{width:100%;
+                   height:100%;
+                    transition:all 2s;}
+
+
+.tip li:hover img{transform:scale(1.2)}
+
+
+
+.tip li .title{color:#333;
+               font-weight:500;
+               margin:20px;}
+
+.tip li .memo{margin:0 20px; font-size:14px;
+                color:#666;}
+
+.tip li .count{position: absolute;
+               top:10px;
+               left:15px;
+                color:#fff;
+               font-weight:600;
+background:url(../images/spot_cnt.png) no-repeat;
+ padding-left:22px; padding-bottom: 5px;}
+
+
+
+.tip .more{width:346px;
+            border:1px solid #ddd;
+            margin:0 auto;
+            text-align: center;}
+.tip .more a{ display: block;
+              width:100%;
+              font-size:14px;
+             font-weight: 500;
+             color:#666;
+             height:48px;
+             line-height: 48px;}
+
+
+
+/*city 영역*/
+
+.city{width:100%;
+      background:#f0f0f0;
+      padding:70px 0;}
+
+.city .cityIn{width:1092px;
+              margin:0 auto;}
+.city h3{margin-bottom:30px;
+        font-size: 26px;
+        color: #333; text-align: center;}
+
+.city .line01{margin-bottom:17px;}
+.city .line01 p{float:left;
+                margin-right:17px;}
+.city .line01 p:last-child{
+          margin-right:0;}
+
+.city .line02{}
+.city .line02 .cols{float:left; margin-right:17px;}
+.city .line02 .cols4{margin-right:0;}
+.city .line02 p{margin-bottom:17px;}
+
+
+.city img{vertical-align: top;}
+
+
+
+.city p{position:relative;}
+.city p span{position:absolute;
+             top:49%;
+             left:0px;
+             display:block;
+             width:100%;
+             text-align: center;
+             color:#fff;
+             font-weight:600;
+             font-size:22px;
+       text-shadow:3px 3px 5px rgba(0,0,0,0.3)}
+
+
+.app{
+    width:100%;
+    height:382px;
+ background:url(../images/mobile_bg.png) no-repeat;
+   background-size:cover;
+}
+body{height:10000px;}
+.appIn{width:542px;/*미정*/
+    padding-left:550px;
+    height:304px;
+    padding-top:78px;
+    margin:0 auto;
+background:url(../images/mobile_demo.png) no-repeat;
+    background-position:38px bottom;
+    
+}
+ 
+.appIn .text1{margin-bottom:10px;
+              font-size:26px;
+              font-weight:500;
+              color:#0083e3}
+
+.appIn .text2{margin-bottom: 35px;
+              color:#666;}
+
+footer{width:100%;
+       height:242px;
+       background:#363c48;}
+
+.footerIn{width:1092px;
+         margin:0 auto;}
+.footerIn>div{float:left;
+              width:260px;
+              margin-right:15px;
+              margin-top:30px;}
+/*footerIn>div
+footerIn바로 아래에 있는 자식div
+ 
+ footerIn div
+footerIn내부의 모든 div
+*/
+footer h4{color:#ccc;
+          font-weight:400;
+          font-size:14px;
+          padding-bottom:2px;
+          margin-bottom: 8px;
+    border-bottom:1px solid #424753;}
+
+.footerIn>div li a{color:#fff;
+                   font-size: 12px;}
+
+.fmenu1{}
+.fmenu2{}
+.fmenu3{}
+.fmenu4{margin-right:0 !important;
+         margin-top:52px !important;}
+
+.fmenu4 .sel{}
+.fmenu4 .sel p{float:left;
+                width:113px;
+                margin-right:10px;}
+.fmenu4 .sel p:last-child{margin-right:0}
+
+.fmenu4 .sel p .btn{
+    display: block;
+    color:#fff;
+    border:1px solid #424753;
+    font-size:12px;
+    padding-left:10px;
+    padding-top:8px;
+    padding-bottom:4px;
+    background:url(../images/arr_sel.png)
+ no-repeat 90px center;}
+
+.fsns{margin-top:12px;}
+.fsns p{float:left; margin-right:8px}
+
+.copyright{width:100%;
+           height:40px;
+           background:gold;
+           color:#333; 
+           margin-top:13px;}
+
+.copyrightIn{width:1092px;
+             margin:0 auto;
+            }
+.copyrightIn .cpr{float:left;
+                  margin-top:4px;}
+.copyrightIn .partner{float:right;
+                 margin-top:4px;}
+/*
+높이값:40px
+백그라운드 색상: #2e333d
+폰트크기:14px, 글자색: #ccc
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

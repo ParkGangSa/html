@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+     <meta charset="utf-8">
+     <title>어스토리</title>
+   
+ <link rel="stylesheet" type="text/css" href="css/reset.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.10.2.js"></script>      
+    </head>
+   
+    <body>
+  <div id="wrap">
+  <header>
+      <div id="headerWrap">
+        <h1 id="mainlogo">
+          <a href="#">
+   <img src="images/logo.png" 
+         alt="어스토리">    
+            </a>
+        </h1><!--mainlogo-->
+          
+ <div id="utill">
+    <p class="login">
+       <a href="#">로그인</a>
+    </p><!--login-->
+ 
+    <p class="join">
+       <a href="#">회원가입</a>
+     </p><!--join-->
+ </div><!--utill-->
+<script type="text/javascript">
+$(function() {
+	$("#placeName").focus(function() {
+		$(this).animate({width:"170px"}, 1000);
+	}).blur(function() {
+		$(this).animate({width:"153px"}, 1000);
+	});
+});
+</script>
+    <div class="search">
+      <input type="text" 
+    placeholder="도시/장소를 찾아보세요"
+    id="placeName" name="placeName">
+          
+    </div><!--search--> 
+
+
+          
+    <nav id="gnb">
+     <ul>
+    <li><a href="#">여행지</a></li>   
+    <li><a href="#">일정만들기</a></li>   
+    <li><a href="#">호텔</a></li>   
+    <li><a href="#">이용방법</a></li>   
+    <li><a href="#">여행상품</a></li>   
+    </ul>
+    </nav><!--#gnb-->
+    
+    </div><!--#headerWrap-->
+  </header>      
+      
+  <div id="container">
+      <div class="mainVisual">
+      
+    <div class="mainTitle">
+         <h2>나만의 여행 플래너 어스토리!</h2>
+         <p>쉽고 빠르게 여행을 계획하세요.</p>
+    </div><!--mainTitle-->
+      
+    <div class="mainSC">
+        <p class="text">
+    <input type="text" 
+    placeholder="국가명, 도시명으로 검색" id="cityname" 
+    name="cityName">
+        </p><!--text-->  
+          
+        <p class="keyword">
+         추천도시 :
+          <a href="#">타이베이</a>,
+          <a href="#">홍콩</a>,
+          <a href="#">런던</a>
+        </p><!--keyword-->
+        
+        <p class="map">
+         <a href="#">지도에서 검색 &gt;</a>
+         <!--
+    문자로 부등호를 사용하기 위해 쓰는 코드
+   <   &lt;
+   >   &gt;
+        -->
+        </p>
+        
+    </div><!--mainSC-->      
+      </div><!--mainVisual-->
+      
+      
+      <div class="howto">
+        <h3>어스토리에서 여행을 시작하세요!</h3>
+       <ul class="cf">
+         <li>
+          <a href="#">
+             <p class="photo">
+              <img src="images/intro01.jpg">
+              </p><!--photo--> 
+             
+             <p class="title">
+             여행정보 
+             </p><!--title-->
+              
+              <p class="text">
+              전 세계 800개 도시, 30만개의 관광명소, 음식점, 쇼핑 정보를 확인하세요.
+              </p><!--text-->
+          </a> 
+         </li><!--첫번째 li-->
+           
+        
+<li>
+<a href="#">
+<p class="photo">
+<img src="images/intro02.jpg">
+</p><!--photo-->
+
+<p class="title">여행일정</p>
+<!--title-->    
+
+<p class="text">
+전 세계 100,000개 이상의 여행일정을 확인하고 나만의 일정을 계획해 보세요.    
+</p><!--text-->             
+</a>  
+</li><!--두번째li-->
+           
+<li>
+<a href="#">
+<p class="photo">
+<img src="images/intro03.jpg">
+</p>
+<p class="title">
+커뮤니티    
+</p>
+<p class="text">
+여행자들과 정보를 공유하고, 궁금한 것은 언제든 물어보세요
+</p>
+    
+</a>           
+</li><!--마지막 li-->   
+</ul>    
+
+<p class="more">
+<a href="#">
+사용방법이 궁금하신가요?
+</a>           
+</p><!--more-->
+          
+    
+</div><!--howto-->
+      
+<div class="plan">
+<div class="planin">
+    <h3>인기 여행일정</h3>
+    <p class="subTit">
+다른 여행자들의 일정을 참고해 나만의 여행을 계획해보세요!
+    </p><!--subTit-->
+    
+<!--plan의 ul시작영역-->    
+<ul class="cf">
+<li><!--첫번째 li-->
+<a href="#">
+<!--사진-->
+<p class="photo"><img src="images/plan01.jpg"></p>
+
+
+<!--사진 위 텍스트영역-->
+<div class="info">
+<p class="date">2018-02-21</p>
+<p class="day">7DAYS</p>
+<p class="title">여행제목 작성하기</p>
+</div><!--info-->
+
+<!--하단영역 텍스트-->
+<p class="theme">친구와 함께</p>
+<p class="place">발리</p>
+<p class="user">작성자</p>
+
+<!--카운터-->
+<div class="count">
+<p class="spot">25</p>
+<p class="view">587</p>
+<p class="copy">6</p>
+</div><!--count-->
+
+</a>    
+</li><!--첫번째 li-->    
+
+    
+<li><!--두번째 li-->
+<a href="#">
+<!--사진영역-->
+<p class="photo">
+<img src="images/plan02.jpg">    
+</p>
+<!--사진위 텍스트영역-->    
+<div class="info">
+<p class="date">2018-03-15</p>
+<p class="day">10DAYS</p>
+<p class="title">여행제목!!!</p>
+</div><!--info-->
+
+<!--하단영역 텍스트-->
+<p class="theme">친구와 함께</p>
+<p class="place">싱가포르</p>
+<p class="user">작성자</p>
+
+<!--카운터-->
+<div class="count">
+<p class="spot">35</p>
+<p class="view">777</p>
+<p class="copy">7</p>
+</div><!--count-->    
+</a>  
+</li><!--두번째 li-->
+
+    
+<li class="plan03"><!--세번째 li-->
+<a href="#">
+<!--사진영역-->
+<p class="photo"><img src="images/plan03.jpg"></p>
+<!--사진 위 텍스트영역-->
+<div class="info">
+<p class="date">2018-06-17</p>
+<p class="day">4DAYS</p>
+<p class="title">여행 제목!!!</p>
+</div><!--info-->
+
+<!--하단텍스트영역-->
+<p class="theme">커플여행</p>
+<p class="place">일본</p>
+<p class="user">작성자</p>
+
+<!--카운터-->
+<div class="count">
+<p class="spot">24</p>
+<p class="view">587</p>
+<p class="copy">8</p>
+</div>
+
+</a>
+</li><!--세번째 li-->
+
+<li><!--네번째 li-->
+<a href="#">
+<!--사진-->
+<p class="photo"><img src="images/plan04.jpg"></p>
+<!--사진 위 텍스트영역-->
+<div class="info">
+<p class="date">2018-02-21</p>
+<p class="day">7DAYS</p>
+<p class="title">여행제목 작성하기</p>
+</div><!--info-->
+
+<!--하단영역 텍스트-->
+<p class="theme">친구와 함께</p>
+<p class="place">발리</p>
+<p class="user">작성자</p>
+
+<!--카운터-->
+<div class="count">
+<p class="spot">25</p>
+<p class="view">587</p>
+<p class="copy">6</p>
+</div><!--count-->
+
+</a>    
+</li><!--네번째 li-->    
+
+    
+<li><!--다섯번째 li-->
+<a href="#">
+<!--사진영역-->
+<p class="photo">
+<img src="images/plan05.jpg">    
+</p>
+<!--사진위 텍스트영역-->    
+<div class="info">
+<p class="date">2018-03-15</p>
+<p class="day">10DAYS</p>
+<p class="title">여행제목!!!</p>
+</div><!--info-->
+
+<!--하단영역 텍스트-->
+<p class="theme">친구와 함께</p>
+<p class="place">싱가포르</p>
+<p class="user">작성자</p>
+
+<!--카운터-->
+<div class="count">
+<p class="spot">35</p>
+<p class="view">777</p>
+<p class="copy">7</p>
+</div><!--count-->    
+</a>  
+</li><!--다섯번째 li-->
+
+    
+<li class="plan06"><!--여섯번째 li-->
+<a href="#">
+<!--사진영역-->
+<p class="photo"><img src="images/plan06.jpg"></p>
+<!--사진 위 텍스트영역-->
+<div class="info">
+<p class="date">2018-06-17</p>
+<p class="day">4DAYS</p>
+<p class="title">여행 제목!!!</p>
+</div><!--info-->
+
+<!--하단텍스트영역-->
+<p class="theme">커플여행</p>
+<p class="place">일본</p>
+<p class="user">작성자</p>
+
+<!--카운터-->
+<div class="count">
+<p class="spot">24</p>
+<p class="view">587</p>
+<p class="copy">8</p>
+</div>
+
+</a>
+</li><!--여섯번째 li-->
+
+    
+</ul>    
+
+    
+<p class="more">
+<a href="#">56,065개의 추천일정 모두보기</a>    
+</p>
+    
+    
+
+</div><!--plainin plan의 랩영역(width:1092px)-->  
+</div><!--plan 100% 회색배경-->      
+      
+<div class="tip">
+<h3>어디로 갈까?</h3>
+<p class="subTit">팁에서 아이디어를 얻어보세요.</p>
+
+<ul class="cf">
+<li class="t01">
+<a href="#">
+<p class="photo"><img src="images/tip01.jpg"></p>
+<p class="title">방콕의 필수 여행지</p>
+<p class="memo">어디를 가서 무엇을 봐야할지 도저히 감이 잡히지 않는다면, 필수 스팟을 중심으로 둘러보자.</p>
+<p class="count">7</p>
+</a>    
+</li><!--첫번째 li t01-->    
+
+<li class="t02">
+<a href="#">
+<p class="photo"><img src="images/tip02.jpg"></p>
+<p class="title">가우디의 도시, 바르셀로나</p>
+<p class="memo">가우디의 도시, 바르셀로나</p>
+<p class="count">5</p>
+</a>
+</li><!--두번째 li t02-->
+    
+<li class="t03">
+<a href="#">
+<p class="photo"><img src="images/tip03.jpg"></p> 
+<p class="title">절대 놓치지 말아야 할 시드니의 그 곳</p>
+<p class="memo">시드니를 떠올리면 가장 먼저 생각날 곳들. 시드니에서 이 곳을 가지 않고…</p>
+<p class="count">8</p>
+</a>    
+</li><!--세번째li t03-->
+
+<li class="t04">
+<a href="#">
+<p class="photo"><img src="images/tip04.jpg"></p>
+<p class="title">싱가포르의 화려한 밤</p>
+<p class="memo">싱가포르에서 '핫'한 주말밤 보내기. 월, 화, 목, 일요일엔 제대로 즐길 수…</p>
+<p class="count">7</p>
+</a>    
+</li><!--네번째li t04-->
+
+<li class="t05">
+<a href="#">
+<p class="photo"><img src="images/tip05.jpg"></p>
+<p class="title">야누스처럼 두 개의 얼굴을 가진 부산</p>
+<p class="memo">가도가도 아직도 못가본 곳이 많은 부산. 한 두개가 아닌 여러개의 얼굴을…</p>
+<p class="count">3</p>
+</a>        
+</li><!--다섯번째li t05-->
+
+<li class="t06">
+<a href="#">
+<p class="photo"><img src="images/tip06.jpg"></p>
+<p class="title">쇼퍼들의 도시, 쿠알라룸푸르</p>
+<p class="memo">쇼핑센터로 가득한 쿠알라룸푸르, 어디부터 갈까?</p>
+<p class="count">17</p>    
+</a>    
+</li><!--여섯번째li t06-->
+    
+</ul>    
+
+<p class="more">
+<a href="#">346개의 여행TIP 모두보기</a>    
+</p>
+ 
+</div> <!--tip-->
+      
+      
+<div class="city"><!--width:100%-->
+<div class="cityIn"><!--width:1092px 랩-->
+<h3>인기도시 TOP10</h3>
+
+<section class="content">
+<div class="line01 cf">
+<p>
+<a href="#">
+<img src="images/city01.jpg">
+<span>런던</span>    
+</a>
+</p><!--첫번째 p-->
+
+<p>
+<a href="#">
+<img src="images/city02.jpg">
+<span>파리</span>
+</a>
+</p><!--두번째 p-->
+
+<p>
+<a href="#">
+<img src="images/city03.jpg">
+<span>싱가포르</span>
+</a>    
+</p><!--세번째 p-->
+</div><!--line01-->
+
+<div class="line02 cf">
+   
+    <div class="cols cols1">
+      <p>
+       <a href="#">
+        <img src="images/city04.jpg">
+        <span>이스탄불</span>
+       </a>  
+      </p><!--cols1 첫번째p-->
+    
+      <p>
+        <a href="#">
+        <img src="images/city08.jpg">
+        <span>홍콩</span>
+        </a>
+      </p><!--cols1 두번째p-->
+    </div><!--cols1-->
+    
+    <div class="cols cols2">
+      <p>
+      <a href="#">
+      <img src="images/city05.jpg">
+      <span>베네치아</span>
+      </a>
+      </p><!--cols2 첫번째p-->
+    
+      <p>
+      <a href="#">
+      <img src="images/city09.jpg">
+      <span>방콕</span>
+      </a>
+      </p><!--cols2 두번째p-->
+        
+    </div><!--cols2-->
+    
+    <div class="cols cols3">
+    <p>
+    <a href="#">
+     <img src="images/city06.jpg">
+     <span>바르셀로나</span>
+    </a>    
+    </p><!--cols3 첫번째p-->
+        
+    <p>
+    <a href="#">
+    <img src="images/city10.jpg">
+    <span>제주도</span>
+    </a>    
+    </p><!--cols3 두번째p-->
+    </div><!--cols3-->
+
+    <div class="cols cols4">
+    <p>
+   <a href="#">
+     <img src="images/city07.jpg">
+      <span>타이베이</span>
+    </a>
+        </p>
+    </div><!--cols4-->
+    
+    
+</div><!--line02-->
+    
+    
+</section>
+
+</div><!--cityIn-->
+</div><!--city-->
+      
+
+      
+<div class="app">
+  <div class="appIn">
+   
+<p class="text1">모바일에서도 어스토리를 만나보세요.</p>
+<p class="text2">내가 계획한 일정과 전세계 주요 관광지 정보를 빠르고 쉽게 찾을 수 있습니다.<br>어스토리의 모든 서비스는 무료 입니다.</p>
+  <p class="btn">
+    <a href="#">
+    <img src="images/mobile_google.png" alt="구글 플레이스토어">
+    </a>
+      
+    <a href="#">
+     <img src="images/mobile_apple.png" alt="애플 앱스토어">  
+    </a>  
+<!--<b>단순하게 글자를 굵게</b>
+    <strong>글자를 굵게 만들 뿐만 아니라 강조의 의미도 있다</strong>
+      
+    <i>단순하게 글자를 눕히는</i>
+    <em>글자를 눕힐 뿐만 아니라 강조의 의미도 있다</em>-->
+    
+      
+  </p>
+      
+  </div><!--appIn-->    
+</div><!--app-->
+     
+      
+      
+      
+      
+      
+  </div><!--#container-->      
+      
+<footer>
+<div class="footerIn cf">
+<!--1092px 푸터영역 랩-->
+<div class="fmenu1">
+<h4>어스토리</h4>
+<ul>
+<li><a href="#">여행지</a></li>    
+<li><a href="#">일정만들기</a></li>    
+<li><a href="#">호텔</a></li>    
+<li><a href="#">Q&amp;A</a></li>    
+<li><a href="#">여행TIP</a></li>    
+<li><a href="#">모바일</a></li>    
+</ul>
+</div><!--fmenu1-->
+
+<div class="fmenu2">
+<h4>회사이야기</h4>
+<ul>
+ <li><a href="#">회사소개</a></li>    
+ <li><a href="#">이용방법</a></li>    
+ <li><a href="#">광고 및 제휴</a></li>    
+</ul>
+</div><!--fmenu2-->
+    
+<div class="fmenu3">
+<h4>고객센터</h4>
+<ul>
+<li><a href="#">FAQ</a></li>    
+<li><a href="#">문의하기</a></li>    
+<li><a href="#">이용약관</a></li>    
+<li><a href="#">개인정보 취급방침</a></li> 
+</ul>
+</div><!--fmenu3-->
+<div class="fmenu4">
+  <div class="sel cf">
+     <p>
+      <a href="#" class="btn">한국어</a>
+     </p>
+      
+     <p>
+      <a href="#" class="btn">KRW</a> 
+     </p> 
+  </div><!--sel-->
+    
+ <div class="fsns">
+  <p>
+    <a href="#">
+<img src="images/icon_fb.png" alt="페이스북 바로가기">
+     </a>
+  </p>
+  <p>
+    <a href="#">
+ <img src="images/icon_blog.png" alt="블로그 바로가기">
+      </a>
+  </p>
+  
+ </div>
+    
+</div><!--fmenu4-->
+    
+    
+    
+    
+</div><!--footerIn-->
+<div class="copyright">
+<!--100% 하단 바-->
+    <div class="copyrightIn">
+<p class="cpr">
+Copyright ⓒ 2015 Earthtory.com, All Rights Reserved.
+</p>
+        
+<p class="partner">
+제휴문의: wonwoo@earthtory.com | 02-6441-4100        
+</p>      
+        
+    </div>
+</div><!--copyright-->    
+      
+</footer>
+      
+      
+      
+      
+        
+        
+  </div><!--#wrap-->  
+    </body>
+
+</html>
