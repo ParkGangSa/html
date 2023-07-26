@@ -50,11 +50,11 @@ $(document).ready(function(){
     });
   
     // ******  레이어팝업  ****** //
-    $('.notice li:first').click(function(){
-      $('#modalWrap').addClass("active");
+    $('.popup-btn').click(function(){
+      $('#modalWrap').show();
     });
     $('.btn').click(function(){
-      $('#modalWrap').removeClass("active");
+      $('#modalWrap').hide();
     });
   
   

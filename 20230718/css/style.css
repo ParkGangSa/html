@@ -262,7 +262,7 @@ footer{
 }
 /* 레이어 팝업  */
 #modalWrap{
-  display:none;
+  /* display:none; */
   position:absolute;
   top:0;
   left:0;
