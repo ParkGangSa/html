@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {margin: 0; padding: 0; box-sizing: border-box; color: #5d5d5d;}
+
+html, body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    word-spacing: -0.05em;
+    color: #5d5d5d;
+}
+ul, li {list-style: none;}
+a {text-decoration: none; color: #5d5d5d;}
+img {vertical-align: top; width: 100%;}
+button {background-color: transparent; border: 0;}
+#wrap {margin: 0 auto;  width: 100%; position: relative;}
+.wrapper {margin: 0 auto; width: 1280px;} /*text를 정렬 시키는 랩*/
