@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+img{vertical-align: top;}
+a{text-decoration: none;
+  color:#363636;}
+ul, ol{list-style: none;}
+
+
+#wrap{}
+header{}
+header .headerIn{width:980px;
+                 height:78px;
+                 margin:0 auto;
+             position: relative;}
+header h1{}
+header .gnb{position: absolute;
+             right:0;
+             top:30px;}
+header .gnb ul{}
+header .gnb ul li{float:left;
+    background:url(images/line.jpg) no-repeat;
+    padding:0 20px;}
+
+header .gnb ul li:first-child{background:none;}
+
+header .gnb ul li a{}
+
+.container{}
+.slider{}
+.slider a{
+    text-indent: -9999px;
+    background:url(images/slider1.png) no-repeat center 0;
+    background-size:cover;
+    display: block;
+    width:100%;
+    height:600px;
+    
+    
+}
+
+
+.mainrow01{width:980px;
+           margin:0 auto;
+           text-align: center;
+           margin-top:40px;}
+.mainrow01 h3{font-size:24px;
+              font-weight: 400;
+              margin-bottom:30px;
+              color:#b3917c}
+
+.mainrow01 h3:after{content: '';
+                    margin: 0 auto;
+                    margin-top:24px;
+                    display:block;
+                    width:80px;
+                    height: 1px;
+                    background:#8e8e8e}
+
+
+
+
+.mainrow01 span{font-weight: bold;}
+.mainrow01 ul{}
+.mainrow01 ul:after{content: '';
+                     clear: both;
+                     display: block;}
+.mainrow01 ul li{float:left;
+                 width:33.33%}
+.mainrow01 ul li a{}
+.mainrow01 ul li a img{}
+.mainrow01 ul li a p{font-size:13px;
+                     margin-top:14px;}
+.mainrow01 ul li a p strong{display: block;
+                            font-size: 18px;}
+
+
+.mainrow02{width:100%;
+           height:425px;
+background:url(images/main.jpg) no-repeat;
+          margin-top:40px;}
+.mainrow02 h3{color:#fff;
+              font-weight: 100;
+              text-align: center;
+              font-size:24px;
+              padding-top:30px;
+              margin-bottom:40px;}
+.mainrow02 h3:after{
+    content:'';
+    display: block;
+    width:80px;
+    height:1px;
+    background:#fff;
+    margin: 0 auto;
+    margin-top:12px;
+}
+
+
+
+
+.mainrow02 h3 span{font-weight: bold;}
+.mainrow02 .mainrow02In{width:980px;
+                        margin:0 auto}
+.mainrow02 .mr01{float: left}
+.mainrow02 .mr02{float: right}
+
+
+.mr02{width:485px;}
+.mr02 li{width:157px;
+          height:130px;
+          float: left;
+          margin-left:5px;}
+.mr02 li:nth-child(1), .mr02 li:nth-child(4){margin-left:0;}
+
+.mr02 li:nth-child(4),.mr02 li:nth-child(5),
+.mr02 li:nth-child(6){margin-top:5px;}
+
+
+.mr02 li img{width:100%; height:100%;}
+
+footer{background:#171717}
+.footerIn{width:980px;
+          margin:0 auto;
+          padding-bottom:30px;}
+.footerIn:after{content: '';
+                clear: both;
+                display: block;}
+.footerIn>div{float: left;
+              width:325px;
+              padding-top:20px;}
+
+.footerIn h4{color:#b3917c}
+
+.contact p{}
+.contact p .yellow{color:yellow;
+                   font-weight: bold;
+                   display: block;}
+.contact a{color:#fff; line-height: 17px;}
+.contact a:hover{text-decoration: underline;}
+.contact p span:nth-child(3){
+    display: block;
+    margin-top:20px;
+    color:#fff;
+    font-weight:bold;
+}
+
+.contact address{font-style:normal;
+                 font-size:12px;
+                 color:#878787}
+.contact address span{display: block;}
+.contact address span:after{content: '|';
+                            color:#878787;
+                            font-size:12px;
+                            margin-left:3px;
+                            margin-right:1px;}
+
+.news{}
+.news ul li{}
+.news ul li a:before{content: '·';
+             color:#ababab;
+  
+            }
+
+.news ul li:hover a{text-decoration: underline;}
+
+.news ul{width:250px;}
+
+.news ul li a{display: block;
+              color:#ababab;
+              font-size:12px;
+                           white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              line-height:2;}
+.sns{}
+.sns ul li{display: inline-block;
+          margin-top:22px;
+          margin-left:20px;
+
+}
+.sns ul li a{display: block;
+              width:22px;
+              height:22px;
+              text-indent: -9999px;
+              background-repeat: no-repeat;}
+
+.sns li:nth-child(1) a{
+  background-image: url(images/sns1.png)}
+.sns li:nth-child(2) a{
+  background-image: url(images/sns2.png)}
+.sns li:nth-child(3) a{
+  background-image: url(images/sns3.png)}
+.sns li:nth-child(4) a{
+  background-image: url(images/sns4.png)}
+
+
+
+
+
+
+
+
+
+
+
