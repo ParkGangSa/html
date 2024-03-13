@@ -1,0 +1,12 @@
+
+
+주조색 # #0a9b97   / 보조색  #f04467
+body : color 글꼴 #666
+flex-grow: 1;  --- 남은 여백을 1:1:1로 나눔
+
+갤러리 마우스 hover했을 때 .gall ul li:hover {opacity: 0.8;}
+
+stop() 기다리고 있던 실행문을 제거
+
+https://validator.w3.org/
+
