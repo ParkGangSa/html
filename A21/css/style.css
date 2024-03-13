@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+button {cursor: pointer;}
+body {
+  background: #fff;
+  color: #333;
+}
+
+.wrap {
+  width: 1200px;
+  margin: auto;
+  height: 700px;
+  position: relative;
+}
+
+/* header */
+header {
+  height: 100px;
+  padding-top: 30px;
+  position: relative;
+}
+header nav {
+  position: absolute;
+  top: 58px; right: 0;
+  z-index: 5;
+}
+header > nav > ul {display: flex;}
+header > nav > ul > li > a {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid #3cb149;
+  color: #3cb149;
+  border-left: 0;
+  width: 150px;
+  text-align: center;
+}
+header > nav > ul > li:first-child > a {border-left: 1px solid #3cb149;} 
+header > nav > ul > li:hover > a {
+  background: #3cb149;
+  color: #fff;
+}
+.menubg {
+  width: 100%;
+  height: 200px;
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  top: 100px; left: 0;
+  display: none;
+  z-index:3;
+}
+
+.sub {display: none;}
+.sub li a {
+  display: block;
+  color: #fff;
+  padding: 10px;
+}
+.sub li a:hover {
+  background: #fff;
+  color: #333;
+}
+
+/* slider */
+.slider {
+  height: 300px;
+  background: #369;
+  position: relative;
+  overflow: hidden;
+}
+.slider ul {
+  position: absolute;
+  top: 0; left: 0;
+  display: flex;
+  width: 4800px;
+}
+.slider ul li {
+  width: 1200px; height: 300px;
+  position: relative;
+}
+.slider ul li a {
+  display: block;
+  height: 100%;
+}
+.slider ul li.s1 {background: url(../images/s1.jpg) no-repeat center/ cover;}
+.slider ul li.s2 {background: url(../images/s2.jpg) no-repeat center/ cover;}
+.slider ul li.s3 {background: url(../images/s3.jpg) no-repeat center/ cover;}
+.slider ul li p {
+  background: rgba(0,0,0,.7);
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 20px;
+  font-size: 29px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* contents */
+.contents {
+  height: 200px;
+  /* background: tomato; */
+  display: flex;
+}
+.contents article {
+  width: 400px;
+  /* background: #ccc; */
+}
+/* .contents article:nth-child(2) {background: #369;} */
+
+.con1 {padding: 10px;}
+.con1 h2 {
+  background: #008b00;
+  width: 120px;
+  padding: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.con1 table th {text-align: left;}
+.con1 table tr {
+  border-bottom: 1px dashed #333;
+}
+.con1 table a {
+  padding: 5px;
+  display: block;
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;  /*  줄바꿈 */
+} 
+
+.con2 {padding: 10px;}
+.con2 h2 {
+  background: #008b00;
+  width: 120px;
+  padding: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.con2 ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.con2 ul li {
+  width: 120px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.con2 ul li a {
+  display: block;
+  height: 100%;
+}
+
+.con3 {padding: 10px;}
+.con3 a {
+  display: block;
+  background: url(../images/ban.jpg) no-repeat center/cover;
+  height: 180px;
+  border-radius: 30px;
+}
+.con3 div {
+  padding-top: 40px;
+  text-align: center;
+}
+.con3 h2 {
+  font-size: 25px;
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, .8);
+  color: #fff;
+}
+.con3 p.title {
+  background: #333;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+}
+.con3 p.text {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-shadow:  1px 1px 2px rgba(255,255,255,1);
+}
+
+
+/* footer */
+footer {
+  height: 100px;
+  background: #333;
+  color:#fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+select {
+  position: absolute;
+  top: 35px; right: 20px;
+  width: 150px;
+  height: 25px;
+}
+.copy {
+  font-size: 13px;
+  margin-left: 50px;
+}
+
+/* popup */
+.popup {
+  width: 400px;
+  background: #fff;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  border: 2px solid #008b00;
+  text-align: center;
+  padding: 15px;
+  z-index: 20;
+  display: none;
+}
+.popup h2 {
+  color: #008b00;
+  margin-bottom: 20px;
+}
+.popup .text {margin: 15px 0;}
+.popup .button {
+  text-align: right;
+}
+button {padding: 5px;}
