@@ -1,0 +1,14 @@
+
+body : color 글꼴 #666
+nav > ul > li:hover > a --- 2차 메뉴까지 hover영역 설정
+nav > ul > li > a:focus --- 탭키 이동시 영역에 색깔 변경
+.slider ul 띄어쓰기는 자속
+nav > ul  > 직계자식
+flex-grow: 1;  ----- li의 남아있는 여백을 균등하게 나누기 (width의 % 개념)
+gap  --- flex 사이 띄우기
+align-items: center; ---- 수직정렬
+
+jQuery
+stop() 기다리고 있던 실행문을 없애줌
+tabcon notice ---- index number 0
+tabcon gall  --- indeex number 1
