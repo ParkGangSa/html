@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+* {
+  margin: 0; padding: 0;
+  box-sizing:  border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, li {list-style: none;}
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+table {
+  border-color: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+button {cursor: pointer;}
+body {
+  background: #fff;
+  color: #333;
+}
+.wrap {
+  width: 100%;
+  height: 920px;  
+  /* background: #fc6; */
+  position: relative;
+}
+
+/* top */
+.top {
+  height: 800px;
+  /* background: #fcc; */
+  display: flex;
+}
+
+/* top : header */
+header {
+  width: 200px;
+  background: #ecf2ff;
+  padding: 100px 0;
+}
+header h1 {margin-bottom: 50px;}
+nav {padding: 0 10px;}
+nav > ul > li  {position: relative;}
+nav > ul > li > a {
+  display: block;
+  background: #3e54ac;
+  color: #fff;
+  padding: 10px;
+}
+nav > ul > li:hover > a {
+  background: #ccc;
+  color: #333;
+} 
+.sub {
+  position: absolute;
+  top: 0; left: 180px;
+  width: 800px;
+  /* background: #fc6; */
+  z-index: 15;
+  display: none;
+}
+.sub > li {
+  display: inline-block;
+}
+.sub > li > a {
+  display: block;
+  padding: 10px;
+  width: 180px;
+  color: #fff;
+}
+.sub > li > a:hover {
+  background: #fff;
+  color: #333;
+}
+.menubg {
+  background: rgba(0,0,0,0.5);
+  position:absolute;   /* position: absolute의 기준을 잡지 않으면 body에 자동으로 기준이 감 */
+  top: 192px; left: 190px; 
+  width: calc(100% - 190px);
+  height: 165px;
+  display: none;
+  z-index: 10;
+}
+
+
+/* top : contents */
+.contents {
+  width: calc(100% - 200px);
+  /* background: skyblue; */
+}
+.slider {
+  height: 400px;
+  /* background: yellowgreen; */
+  position: relative;
+}
+.slider li {
+  position: absolute;
+  top: 0; left: 0;
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  display: none;
+}
+.slider li a {
+  display: inline-block;
+  background: #3e54ac;
+  color: #fff;
+  width: 700px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.slider li.s1 {background: url(../images/s1.jpg) no-repeat center/cover; display: block;}
+.slider li.s2 {background: url(../images/s2.jpg) no-repeat center/cover;}
+.slider li.s3 {background: url(../images/s3.jpg) no-repeat center/cover;}
+
+.con1 {
+  height: 150px;
+  background: #3e54ac;
+}
+.con1 ul { display: flex;}
+.con1 ul li { 
+  text-align: center;
+  width: 14%;
+  color: #fff;
+  padding-top: 15px;
+}
+.con1 ul li .text {margin-top: 7px;}
+.con2 {
+  display: flex;
+  height: 250px;
+  /* background: pink; */
+}
+
+article {padding: 20px;}
+article h2 {
+  background: #3e54ac;
+  color: #fff;
+  padding: 10px;
+  width: 180px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+.notice {
+  /* background: #ccc; */
+  width: 50%;
+}
+.notice table {
+  border: 0;
+  border-top: 3px solid #3e54ac;
+}
+.notice table th {
+  text-align: left;
+  height: 40px;
+  padding-left: 10px;
+  color: #3e54ac;
+}
+
+.gall {
+  /* background: #ddd; */
+  width: 50%;
+}
+.gall ul {
+  display: flex;
+  border-top: 3px solid #3e54ac;
+  justify-content: space-around;
+}
+.gall ul li {
+  width: 200px;
+  padding-top: 20px;
+  text-align:center;
+}
+.gall ul li .box {
+  height: 100px;
+  overflow: hidden;
+}
+.gall ul li img:hover {opacity: 0.5;}
+
+/* footer */
+footer  {
+  height: 120px;
+  background: #333;
+  color: #fff;
+  padding-left: 250px;
+  padding-top: 10px;
+  position: relative;
+}
+.fmenu {
+  display: flex; 
+}
+.fmenu li {
+  border-left: 1px solid #fff;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.fmenu li:first-child {
+  border-left: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+footer select {
+  position:absolute;
+  top: 30px; right: 50px;
+  width: 150px;
+  padding: 5px;
+}
+.copy {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.popview {
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  text-align: center;
+  display: none;
+}
+.popview h2 {margin-bottom: 10px;}
+button {
+  margin-top: 5px;
+  padding: 5px;
+}
