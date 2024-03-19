@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 서브비주얼 */
+.containerSub {
+	width: 100%;
+	overflow: hidden;
+}
+.subSection1, .subSection2 {
+	width: 1180px;
+	margin: 0 auto;
+}
+.subVisual_no1 {
+	width: 1180px;
+	height: 220px;
+	margin-top: 20px;
+	background: url("../images/img_subvisual.png") no-repeat;
+}
+/*// 서브비주얼 */
+
+/* 사이드메뉴 */
+.sideSnb {
+	float: left;
+	width: 240px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.sideSnb_title {
+	height: 100px;
+	background: #3778bc url("../images/img_sideSub_titlebg.png") no-repeat;
+	background-position: left top;
+	color: #fff;
+	font-size: 32px;
+	line-height: 90px;
+	font-weight: 500;
+	text-align: center;
+}
+.sideSnb_menu {
+	margin-bottom: 10px;
+}
+.sideSnb_menu li {
+	width: 240px;
+/*	height: 55px;*/
+	background-color: #fff;
+	border-left: 1px solid #c2c2c2;
+	border-right: 1px solid #c2c2c2;
+	border-bottom: 1px solid #c2c2c2;
+	font-size: 17px;
+	font-weight: 400;
+    line-height: 55px;
+}
+.sideSnb_menu li:hover {
+	background: #fff url("../images/img_sideSub_menu on.png") no-repeat;
+	background-position: 90% 50%;
+/*	transition: all .3s;*/
+}
+
+.sideSnb1_1 a:link, .sideSnb1_1 a:visited, .sideSnb1_1 a:active {
+	padding: 15px 145px 15px 30px;
+	color: #000;
+}
+.sideSnb1_2 a:link, .sideSnb1_2 a:visited, .sideSnb1_2 a:active {
+	padding: 15px 145px 15px 30px;
+	color: #000;
+}
+.sideSnb1_3 a:link, .sideSnb1_3 a:visited, .sideSnb1_3 a:active {
+	padding: 15px 82px 15px 30px;
+	color: #000;
+}
+.sideSnb1_4 a:link, .sideSnb1_4 a:visited, .sideSnb1_4 a:active {
+	padding: 15px 98px 15px 30px;
+	color: #000;
+}
+.sideSnb1_5 a:link, .sideSnb1_5 a:visited, .sideSnb1_5 a:active {
+	padding: 15px 82px 15px 30px;
+	color: #000;
+}
+.sideSnb_menu a:hover {
+	color: #3778bc;
+	transition: all .3s;
+}
+.sideSnb1_1.on a {
+	background: #fff url("../images/img_sideSub_menu on.png") no-repeat;
+	background-position: 90% 50%;
+	color: #3778bc;
+}
+
+.side_quickLink > li {
+	width: 240px;
+	height: 60px;
+	font-size: 18px;
+	line-height: 60px;
+}
+.side_quick1 {
+	margin-bottom: 3px;
+	background: #3778bc url("../images/ico_sub_quickLink1.png") no-repeat;
+	background-position: 90% 50%;
+}
+.side_quick2 {
+	background: #b5b5b5 url("../images/ico_sub_quickLink2.png") no-repeat;
+	background-position: 90% 50%;
+}
+.side_quick1 a:link, .side_quick1 a:visited, .side_quick1 a:active, .side_quick1 a:hover {
+	padding: 13px 105px 15px 30px;
+	color: #fff;
+}
+.side_quick2 a:link, .side_quick2 a:visited, .side_quick2 a:active, .side_quick2 a:hover {
+	padding: 13px 105px 15px 30px;
+	color: #fff;
+}
+/*// 사이드메뉴 */
+
+/* 로케이션 */
+.bodyContent_wrap {
+	float: right;
+	width: 880px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.location li {
+	display: inline-block;
+}
+.location {
+	width: 880px;
+    height: 30px;
+    border-bottom: 3px solid #3778bc;
+    font-size: 15px;
+    text-align: right;
+    line-height: 10px;
+}
+.location li:before {
+	content: url("../images/ico_location1.png");
+	font-size: 15px;
+	padding: 7px; 
+}
+.location li:first-child::before {
+	content: none;
+}
+.location a:link, .location a:visited, .location a:active {
+	color: #000;
+}
+ .location a:hover {
+	 color: #3778bc;
+}
+/*// 로케이션 */
+
+/* 컨텐츠 타이틀 */
+.bodyContent_title {
+	width: 880px;
+    height: 68px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 66px;
+}
+/*// 컨텐츠 타이틀 */
+
+/* 컨텐츠 */
+.bodyContent {
+	width: 880px;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+.subReserve {
+	width: 880px;
+	height: 240px;
+	padding: 44px 40px;
+	margin-bottom: 55px;
+	background-color: #3778bc;
+	color: #fff;
+}
+.subReserve_title_wrap {
+	width: 800px;
+	overflow: hidden;
+	margin-bottom: 15px;
+/*	padding-left: 55px;*/
+/*	background: url("../images/ico_subreserve.png") no-repeat;*/
+/*	background-position: 0% 60%;*/
+}
+.subReserve_title {
+	float: left;
+    margin-right: 27px;
+    font-size: 52px;
+    letter-spacing: -1px;
+}
+.subReserve_subtitle {
+	float: left;
+	margin-top: 14px;
+	font-size: 16px;
+}
+.subReserve_search {
+	width: 800px;
+	overflow: hidden;
+}
+.subSelect_medical {
+	width: 185px;
+	height: 38px;
+	margin-right: 16px;
+	border: 0px;
+	font-size: 16px;
+}
+.subSelect_doctor {
+	width: 185px;
+	height: 38px;
+	margin-right: 16px;
+	margin-right: 15px;
+	border: 0px;
+	font-size: 16px;
+}
+.subReserve_search input {
+	width: 185px;
+	height: 38px;
+	margin-right: 16px;
+	border: 0px;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+}
+.subReserve_search button {
+	width: 182px;
+	height: 40px;
+	background-color: #284776;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 15px;
+	border: 0;
+	cursor: pointer;
+}
+.subReserve_search button:hover {
+	background-color: #fff;
+	color: #284776;
+	font-weight: 500;
+	transition: all .3s;
+}
+section {
+	width: 880px;
+	margin-bottom: 55px;
+	overflow: hidden;
+}
+.bodyContent_subtitle {
+	margin-bottom: 60px;
+	font-size: 24px;
+	font-weight: 500;
+	color: #3778bc;
+	letter-spacing: -1px;
+}
+.subReserve_box_wrap {
+	width: 880px;
+}
+.subReserve_box {
+	width: 280px;
+	height: 240px;
+	border: 3px solid #c2c2c2;
+	text-align: center;
+}
+.subReserve_box_wrap > div {
+	position: relative;
+}
+
+.check1 {
+	width: 82px;
+    height: 82px;
+	padding-top: 12px;
+	position: absolute;
+	z-index: 3;
+	top: -41px;
+	left: 100px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+	color: #fff;
+	text-align: center;
+    background-color: #488bd2;
+}
+.check2 {
+	width: 82px;
+    height: 82px;
+	padding-top: 12px;
+	position: absolute;
+	z-index: 3;
+	top: -41px;
+	left: 100px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+	color: #fff;
+	text-align: center;
+    background-color: #69a8eb;
+}
+.check3 {
+	width: 82px;
+    height: 82px;
+	padding-top: 12px;
+	position: absolute;
+	z-index: 3;
+	top: -41px;
+	left: 100px;
+    border-radius: 50px;
+    border: 3px solid #fff;
+	color: #fff;
+	text-align: center;
+    background-color: #c2c2c2;
+}
+.subReserve_box1 {
+	float: left;
+	margin-right: 20px;
+}
+.subReserve_box2 {
+	float: left;
+	margin-right: 20px;
+}
+.subReserve_box3 {
+	float: right;
+}
+.subReserve_text3 {
+	margin-top: 78px;
+	font-size: 18px;
+	line-height: 32px;
+}
+.subReserve_text4 {
+	margin-top: 62px;
+	font-size: 18px;
+	line-height: 32px;
+}
+.subReserve_text5 {
+	margin-top: 52px;
+	font-size: 18px;
+    line-height: 30px;
+}
+.check_txt {
+	font-size: 12px;
+}
+.subReserve_box_wrap h3 {
+	margin-top: -10px;
+	font-size: 30px;
+}
+.p_strong {
+	font-weight: 600;
+}
+.btn_reserve {
+	margin-left: 300px;
+	width: 280px;
+	height: 60px;
+	border: 0px;
+	background-color: #284776;
+	font-size: 24px;
+	color: #fff;
+	cursor: pointer;
+}
+.btn_reserve:hover {
+	background-color: #3778bc;
+	transition: all .3s;
+}
+/*// 컨텐츠 */
+
+

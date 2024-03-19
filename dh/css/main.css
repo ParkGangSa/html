@@ -1,0 +1,582 @@
+.top_utility {
+	height: 35px; background-color: rgb(55, 120, 188); widht: 100%;
+}
+.top_utility_wrap {
+	margin: 0px auto; width: 1180px; overflow: hidden;
+}
+.top_utility_wrap ol li {
+	display: inline-block;
+}
+.gnb_group {
+	overflow: hidden; margin-right: -20px; float: right;
+}
+.gnb_group li {
+	height: 35px;
+}
+.gnb1 {
+	background: url("../images/ico_topmenu1.png") no-repeat left 50%;
+}
+.gnb2 {
+	background: url("../images/ico_topmenu2.png") no-repeat left 50%;
+}
+.gnb3 {
+	background: url("../images/ico_topmenu3.png") no-repeat left 50%;
+}
+.gnb4 {
+	background: url("../images/ico_topmenu4.png") no-repeat left 50%;
+}
+.gnb_group a:link {
+	padding: 8px 20px; color: rgb(255, 255, 255); line-height: 34px; font-size: 14px;
+}
+.gnb_group a:visited {
+	padding: 8px 20px; color: rgb(255, 255, 255); line-height: 34px; font-size: 14px;
+}
+.gnb_group a:active {
+	padding: 8px 20px; color: rgb(255, 255, 255); line-height: 34px; font-size: 14px;
+}
+.gnb_group a:hover {
+	text-decoration: underline;
+}
+#header {
+	width: 100%; height: 125px;
+}
+.header_group {
+	width: 100%; height: 90px; box-shadow: 0px 2px 5px #ddd; background-color: rgb(255, 255, 255);
+}
+.header_group_wrap {
+	margin: 0px auto; width: 1180px; overflow: hidden;
+}
+.logo {
+	background: url("../images/img_logo.png") no-repeat center; height: 90px; float: left;
+}
+.logo a {
+	padding: 40px 70px; font-size: 0px;
+}
+#nav {
+	height: 90px; font-size: 0px; float: left;
+}
+#nav ol li {
+	display: inline-block;
+}
+.lnb {
+	margin-left: 35px;
+}
+.lnb li {
+	padding: 28px 22px;
+}
+.lnb a:link {
+	color: rgb(0, 0, 0); letter-spacing: -0.5px; font-size: 22px; display: block;
+}
+.lnb a:visited {
+	color: rgb(0, 0, 0); letter-spacing: -0.5px; font-size: 22px; display: block;
+}
+.lnb a:active {
+	color: rgb(0, 0, 0); letter-spacing: -0.5px; font-size: 22px; display: block;
+}
+.lnb a {
+	color: rgb(0, 0, 0); letter-spacing: -0.5px; font-size: 22px; display: block;
+}
+.lnb a:hover {
+	color: rgb(80, 137, 196);
+}
+.snb1 {
+	display: none; position: absolute; z-index: 10;
+}
+.snb2 {
+	display: none; position: absolute; z-index: 10;
+}
+.snb3 {
+	display: none; position: absolute; z-index: 10;
+}
+.snb4 {
+	display: none; position: absolute; z-index: 10;
+}
+.snb5 {
+	display: none; position: absolute; z-index: 10;
+}
+.snb_box {
+	padding: 8px 0px; width: 150px; margin-top: 10px; border-top-color: rgb(55, 120, 188); border-top-width: 3px; border-top-style: solid; box-shadow: 2px 2px 5px #bbb; background-color: rgb(255, 255, 255);
+}
+.snb_box a:link {
+	color: rgb(0, 0, 0); line-height: 30px; font-size: 14px;
+}
+.snb_box a:visited {
+	color: rgb(0, 0, 0); line-height: 30px; font-size: 14px;
+}
+.snb_box a:active {
+	color: rgb(0, 0, 0); line-height: 30px; font-size: 14px;
+}
+.snb_box a:hover {
+	color: rgb(80, 137, 196);
+}
+.search_wrap {
+	width: 280px; height: 36px; margin-top: 28px; float: right;
+}
+.search_wrap input {
+	border: 0px currentColor; color: rgb(0, 0, 0);
+}
+.search_wrap button {
+	background: url("../images/ico_search.png") no-repeat rgb(255, 255, 255); padding: 0px 14px; border: 0px currentColor; height: 25px; font-size: 0px;
+}
+.search_wrap a:link {
+	background: url("../images/ico_allview.png") no-repeat rgb(255, 255, 255); padding: 13px; font-size: 0px; float: right;
+}
+.search_wrap a:visited {
+	background: url("../images/ico_allview.png") no-repeat rgb(255, 255, 255); padding: 13px; font-size: 0px; float: right;
+}
+.search_wrap a:active {
+	background: url("../images/ico_allview.png") no-repeat rgb(255, 255, 255); padding: 13px; font-size: 0px; float: right;
+}
+.search_wrap a:hover {
+	background: url("../images/ico_allview.png") no-repeat rgb(255, 255, 255); padding: 13px; font-size: 0px; float: right;
+}
+.search_wrap a:hover .allMenu {
+	display: block;
+}
+.search {
+	padding: 2px 5px; border: 1px solid rgb(194, 194, 194); width: 217px; float: left;
+}
+.allMenu {
+	left: 0px; top: 125px; width: 100%; overflow: hidden; border-top-color: rgb(55, 120, 188); border-bottom-color: rgb(55, 120, 188); border-top-width: 3px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid; display: none; position: absolute; z-index: 102; background-color: rgb(255, 255, 255);
+}
+.allMenu_wrap {
+	background: url("../images/img_bg_subMenu.png") no-repeat right bottom; margin: 0px auto; padding: 20px 30px; width: 1180px; overflow: hidden; border-right-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.allMenu_wrap > li {
+	float: left;
+}
+.allMenu_box li {
+	overflow: hidden; padding-bottom: 4px; display: block;
+}
+.allMenu_title {
+	width: 162px; height: 36px; color: rgb(55, 120, 188); font-size: 18px; font-weight: 600; margin-bottom: 8px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.allMenu_title_left {
+	width: 308px;
+}
+.allMenu_title_left div {
+	background: url("../images/img_logo_subMenu.png") no-repeat top; width: 268px; height: 450px; text-align: center; color: rgb(57, 117, 185); padding-top: 130px; filter: opacity(0.6);
+}
+.allMenu_title_left h5 {
+	
+}
+.allMenu_title_left p {
+	font-size: 15px; font-weight: 600;
+}
+.allMenu_box {
+	width: 162px; overflow: hidden;
+}
+.allMenu_box a:link {
+	color: rgb(0, 0, 0); line-height: 25px; font-size: 16px;
+}
+.allMenu_box a:visited {
+	color: rgb(0, 0, 0); line-height: 25px; font-size: 16px;
+}
+.allMenu_box a:active {
+	color: rgb(0, 0, 0); line-height: 25px; font-size: 16px;
+}
+.allMenu_box a:hover {
+	color: rgb(55, 120, 188);
+}
+.mainContainer {
+	width: 100%; overflow: hidden;
+}
+.section1 {
+	margin: 0px auto; width: 1180px;
+}
+.bannerMain_wrap {
+	width: 1180px; height: 380px; margin-top: 20px; margin-bottom: 20px; position: relative;
+}
+.bannerMain {
+	padding: 50px 40px 50px 50px; width: 1180px; height: 380px; letter-spacing: -0.8px; background-repeat: no-repeat;
+}
+.bannerMain h2 {
+	color: rgb(55, 120, 188); letter-spacing: -2px; font-size: 30px; font-weight: 500; margin-top: 45px;
+}
+.bannerMain h4 {
+	color: rgb(0, 0, 0); font-size: 18px;
+}
+.viewmore {
+	width: 120px; margin-top: 30px; margin-bottom: 130px;
+}
+.viewmore a:link {
+	padding: 5px 24px 6px; border: 1px solid rgb(55, 120, 188); color: rgb(255, 255, 255); font-size: 15px; background-color: rgb(55, 120, 188);
+}
+.viewmore a:visited {
+	padding: 5px 24px 6px; border: 1px solid rgb(55, 120, 188); color: rgb(255, 255, 255); font-size: 15px; background-color: rgb(55, 120, 188);
+}
+.viewmore a:active {
+	padding: 5px 24px 6px; border: 1px solid rgb(55, 120, 188); color: rgb(255, 255, 255); font-size: 15px; background-color: rgb(55, 120, 188);
+}
+.viewmore a:hover {
+	border: 1px solid rgb(55, 120, 188); color: rgb(55, 120, 188); background-color: rgba(0, 0, 0, 0); transition: all 0.4s;
+}
+.bannerMaininner {
+	position: relative;
+}
+.bannerMain_pager {
+	left: 50%; bottom: 4%; color: rgba(0, 0, 0, 0.4); font-size: 34px; position: absolute; z-index: 101; cursor: pointer;
+}
+.cycle-pager-active {
+	color: rgb(72, 139, 210);
+}
+.bannerMain_pager ol li {
+	display: inline-block;
+}
+.bannerMain_pager ol {
+	font-size: 0px;
+}
+.bannerMain_pager li {
+	margin: 0px 4px; border-radius: 15px; width: 11px; height: 11px; cursor: pointer; background-color: rgb(153, 153, 153);
+}
+.bannerMain_pager li.on {
+	background-color: rgb(55, 120, 188);
+}
+.bannerMain_pager li:hover {
+	background-color: rgb(55, 120, 188);
+}
+.quickLnk {
+	top: 50px; width: 260px; height: 280px; right: 40px; position: absolute; z-index: 101;
+}
+.quickLnk ol {
+	overflow: hidden;
+}
+.quickLnk li {
+	width: 130px; height: 140px; text-align: center; line-height: 190px; font-size: 17px; float: left;
+}
+.quickLnk a {
+	width: 130px; height: 140px;
+}
+.bg1 {
+	background: url("../images/sprite2.png") no-repeat 0px 0px rgb(55, 120, 188);
+}
+.bg2 {
+	background: url("../images/sprite2.png") no-repeat 0px -140px rgb(72, 139, 210);
+}
+.bg3 {
+	background: url("../images/sprite2.png") no-repeat 0px -280px rgb(72, 139, 210);
+}
+.bg4 {
+	background: url("../images/sprite2.png") no-repeat 0px -420px rgb(55, 120, 188);
+}
+.bg1:hover {
+	background: url("../images/sprite2.png") no-repeat -130px 0px rgb(55, 120, 188); transition: all .3s;
+}
+.bg2:hover {
+	background: url("../images/sprite2.png") no-repeat -130px -140px rgb(72, 139, 210); transition: all .3s;
+}
+.bg3:hover {
+	background: url("../images/sprite2.png") no-repeat -130px -280px rgb(72, 139, 210); transition: all .3s;
+}
+.bg4:hover {
+	background: url("../images/sprite2.png") no-repeat -130px -420px rgb(55, 120, 188); transition: all .3s;
+}
+.quickLnk a:link {
+	color: rgb(255, 255, 255); display: block;
+}
+.quickLnk a:visited {
+	color: rgb(255, 255, 255); display: block;
+}
+.quickLnk a:active {
+	color: rgb(255, 255, 255); display: block;
+}
+.quickLnk a:hover {
+	
+}
+.section2 {
+	margin: 0px auto 20px; width: 1180px; overflow: hidden;
+}
+.bannerSub {
+	width: 280px; height: 280px; overflow: hidden; margin-right: 20px; float: left; position: relative;
+}
+.bannerSubImage {
+	width: 280px; height: 280px; cursor: pointer; background-repeat: no-repeat;
+}
+.bannerSub_control {
+	top: 50%; width: 280px; height: 28px; font-size: 0px; margin-top: -10px; position: absolute; z-index: 100;
+}
+.bannerSub_control_prev {
+	background: url("../images/btn_control_left0.png") no-repeat center rgb(194, 194, 194); width: 28px; height: 28px; float: left; cursor: pointer;
+}
+.bannerSub_control_next {
+	background: url("../images/btn_control_right0.png") no-repeat center rgb(194, 194, 194); width: 28px; height: 28px; float: right; cursor: pointer;
+}
+.reserve {
+	padding: 25px 50px; width: 280px; height: 280px; margin-right: 20px; float: left; background-color: rgb(55, 120, 188);
+}
+.reserve h3 {
+	text-align: center; color: rgb(255, 255, 255); font-size: 22px; margin-bottom: 15px;
+}
+.select_medical {
+	border: 0px currentColor; width: 180px; height: 33px; font-size: 15px; margin-bottom: 12px;
+}
+.select_doctor {
+	border: 0px currentColor; width: 180px; height: 33px; font-size: 15px; margin-bottom: 12px;
+}
+.reserve input {
+	border: 0px currentColor; width: 180px; height: 33px; text-align: center; font-size: 15px; margin-bottom: 12px;
+}
+.reserve button {
+	border: 0px currentColor; width: 180px; height: 38px; color: rgb(255, 255, 255); line-height: 15px; font-size: 16px; cursor: pointer; background-color: rgb(40, 71, 118);
+}
+.reserve button:hover {
+	color: rgb(40, 71, 118); font-weight: 500; background-color: rgb(255, 255, 255); transition: all .3s;
+}
+.notice {
+	width: 580px; height: 280px; float: right;
+}
+.notice ul li {
+	list-style: none; float: left;
+}
+.notice ul {
+	width: 580px; height: 60px; font-size: 0px; background-color: rgb(194, 194, 194);
+}
+.noticeTitle li {
+	width: 193px; height: 60px; text-align: center; line-height: 56px; font-size: 22px; border-top-color: rgb(194, 194, 194); border-bottom-color: rgb(194, 194, 194); border-left-color: rgb(194, 194, 194); border-top-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-bottom-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+.noticeTitle li:last-child {
+	
+}
+.noticeTitle li.on {
+	border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.noticeTitle a:link {
+	color: rgb(194, 194, 194); display: block;
+}
+.noticeTitle a:visited {
+	color: rgb(194, 194, 194); display: block;
+}
+.noticeTitle a:active {
+	color: rgb(194, 194, 194); display: block;
+}
+.noticeTitle a:hover {
+	color: rgb(0, 0, 0);
+}
+.noticeTitle a.on {
+	color: rgb(0, 0, 0);
+}
+.content_box {
+	padding: 32px 30px; height: 220px; border-right-color: rgb(194, 194, 194); border-bottom-color: rgb(194, 194, 194); border-left-color: rgb(194, 194, 194); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.content_box {
+	
+}
+.list::before {
+	padding-right: 8px; content: url("../images/ico_bullet.png");
+}
+.content_box div {
+	padding: 3px 0px; width: 520px; overflow: hidden; font-size: 17px;
+}
+.content_box a:link {
+	background: url("../images/ico_category0.png") no-repeat left 50%; color: rgb(0, 0, 0); padding-left: 48px;
+}
+.content_box a:visited {
+	background: url("../images/ico_category0.png") no-repeat left 50%; color: rgb(0, 0, 0); padding-left: 48px;
+}
+.content_box a:active {
+	background: url("../images/ico_category0.png") no-repeat left 50%; color: rgb(0, 0, 0); padding-left: 48px;
+}
+.content_box a:hover {
+	color: rgb(55, 120, 188);
+}
+.list {
+	width: 370px; overflow: hidden; float: left; white-space: nowrap; text-overflow: ellipsis;
+}
+.date {
+	width: 110px; text-align: right; color: rgb(194, 194, 194); float: right;
+}
+.content1 {
+	display: block;
+}
+.content2 {
+	display: none;
+}
+.content3 {
+	display: none;
+}
+.section3 {
+	margin: 0px auto; width: 100%; overflow: hidden; padding-top: 60px; padding-bottom: 60px; background-color: rgb(238, 238, 238);
+}
+.medicalCenter h2 {
+	text-align: center; padding-bottom: 35px; font-size: 30px;
+}
+.medicalCenter {
+	margin: 0px auto; width: 1180px; position: relative;
+}
+.medicalCenter_wrap {
+	width: 1180px;
+}
+.medicalCenterInner {
+	width: 1180px;
+}
+.medicalCenterControl {
+	top: 50%; width: 1180px; margin-top: 20px; position: absolute; z-index: 101;
+}
+.medicalCenter_control_prev {
+	background: url("../images/btn_control_left1.png") no-repeat; width: 20px; height: 35px; font-size: 0px; margin-left: -40px; float: left; cursor: pointer;
+}
+.medicalCenter_control_next {
+	background: url("../images/btn_control_right1.png") no-repeat; width: 20px; height: 35px; font-size: 0px; margin-right: -50px; float: right; cursor: pointer;
+}
+.medicalCenter_wrap ul {
+	width: 1200px; overflow: hidden; font-size: 0px; margin-right: -20px;
+}
+.medicalCenter_wrap ul li {
+	float: left; display: inline-block;
+}
+.medicalCenter_wrap li {
+	padding: 15px 25px; border: 5px solid rgb(194, 194, 194); width: 280px; height: 160px;
+}
+.medicalCenter_wrap li:hover {
+	border: 5px solid rgb(55, 120, 188); transition: all 0.4s;
+}
+.medicalCenter_box_all li {
+	height: 160px; margin-right: 20px;
+}
+.medicalCenter_box_all h4 {
+	color: rgb(0, 0, 0); font-size: 22px;
+}
+.subtitl {
+	color: rgb(149, 149, 149); letter-spacing: -0.3px; font-size: 12px; margin-bottom: 20px;
+}
+.medicalCenter_box1 {
+	background: url("../images/img_medical_center1.png") no-repeat;
+}
+.medicalCenter_box2 {
+	background: url("../images/img_medical_center2.png") no-repeat;
+}
+.medicalCenter_box3 {
+	background: url("../images/img_medical_center3.png") no-repeat;
+}
+.medicalCenter_box4 {
+	background: url("../images/img_medical_center4.png") no-repeat;
+}
+.go {
+	background: url("../images/btn_go.png") no-repeat rgb(191, 191, 191); border-radius: 30px; width: 40px; height: 40px; transition: all .3s;
+}
+.go:hover {
+	background: url("../images/btn_go.png") no-repeat rgb(55, 120, 188);
+}
+.go a:link {
+	width: 280px; height: 160px; display: block;
+}
+.go a:visited {
+	width: 280px; height: 160px; display: block;
+}
+.go a:active {
+	width: 280px; height: 160px; display: block;
+}
+.go a:hover {
+	width: 280px; height: 160px; display: block;
+}
+.quickMenu_wrap {
+	left: 50%; top: 145px; width: 90px; overflow: hidden; margin-left: 610px; position: fixed; z-index: 5;
+}
+.quickMenu {
+	background: url("../images/img_quickmenu_title.png") no-repeat 50% 4px rgb(55, 120, 188); border-radius: 0px 0px 50px 50px; border: 3px solid rgb(55, 120, 188); padding-top: 20px;
+}
+.quick_body {
+	padding: 10px 0px 12px; border-radius: 50px; width: 84px; text-align: center; background-color: rgb(255, 255, 255);
+}
+.quick_body li {
+	margin: 15px 12px 20px; height: 45px; line-height: 72px;
+}
+.quick_body a:link {
+	color: rgb(0, 0, 0); font-size: 13px; font-weight: 500;
+}
+.quick_body a:visited {
+	color: rgb(0, 0, 0); font-size: 13px; font-weight: 500;
+}
+.quick_body a:active {
+	color: rgb(0, 0, 0); font-size: 13px; font-weight: 500;
+}
+.quick_body a:hover {
+	padding: 35px 5px 0px; color: rgb(55, 120, 188);
+}
+.qm1 {
+	background: url("../images/sprite.png") 0px 0px; width: 60px;
+}
+.qm2 {
+	background: url("../images/sprite.png") 0px -45px; width: 60px;
+}
+.qm3 {
+	background: url("../images/sprite.png") 0px -90px; width: 60px;
+}
+.qm4 {
+	background: url("../images/sprite.png") 0px -135px; width: 60px;
+}
+.quick_top {
+	background: url("../images/btn_quickmenu_top.png") no-repeat; margin: -20px 0px 0px 30px; width: 32px; height: 32px; font-size: 0px;
+}
+.quick_top a {
+	width: 32px; height: 32px; display: block;
+}
+#footer {
+	padding: 60px 0px; overflow: hidden; background-color: rgb(51, 51, 51);
+}
+.foot_wrap {
+	background: url("../images/img_logo_footer.png") no-repeat; margin: 0px auto; width: 1180px; overflow: hidden; padding-left: 180px;
+}
+.foot_left {
+	letter-spacing: 0.3px; font-size: 16px; float: left;
+}
+.fnb li {
+	margin-bottom: 20px; display: inline-block;
+}
+.foot_left p {
+	line-height: 26px; font-weight: 300;
+}
+.foot_left span {
+	padding: 5px; color: rgb(68, 68, 68); font-size: 15px;
+}
+.fnb li::before {
+	padding: 0px 8px 0px 6px; color: rgb(119, 119, 119); font-size: 15px; content: "/";
+}
+.fnb li:first-child::before {
+	content: none;
+}
+.fnb a:link {
+	color: rgb(181, 181, 181);
+}
+.fnb a:visited {
+	color: rgb(181, 181, 181);
+}
+.fnb a:active {
+	color: rgb(181, 181, 181);
+}
+.fnb a:hover {
+	color: rgb(255, 255, 255);
+}
+.foot_left {
+	color: rgb(181, 181, 181);
+}
+.foot_right {
+	float: right;
+}
+.foot_right ul li {
+	display: inline-block;
+}
+.foot_right li {
+	width: 40px; height: 40px; margin-top: 20px; margin-left: 10px;
+}
+.foot_right ul {
+	font-size: 0px;
+}
+.sns1 a {
+	background: url("../images/btn_sns_facebook off.png") no-repeat; padding: 20px;
+}
+.sns1 a:hover {
+	background: url("../images/btn_sns_facebook.png") no-repeat; transition: all .3s;
+}
+.sns2 a {
+	background: url("../images/btn_sns_instar off.png") no-repeat; padding: 20px;
+}
+.sns2 a:hover {
+	background: url("../images/btn_sns_instar.png") no-repeat; transition: all .3s;
+}
+.sns3 a {
+	background: url("../images/btn_sns_blog off.png") no-repeat; padding: 20px;
+}
+.sns3 a:hover {
+	background: url("../images/btn_sns_blog.png") no-repeat; transition: all .3s;
+}
