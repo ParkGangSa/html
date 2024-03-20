@@ -1,0 +1,255 @@
+﻿/*reset css*/
+@charset 'utf-8';
+*{margin:0; padding:0;
+  color:#363636;}
+a{text-decoration: none;
+  color:#363636;}
+ul, ol{list-style:none;}
+
+
+/*header css*/
+header{border-bottom: 2px solid #b5121b}
+#headerWrap{width:940px;
+            height:140px;
+            margin:0 auto;
+            position:relative;
+            }
+#mainLogo{text-align:center;
+          padding-top:45px;}
+#gnbSub{position:absolute;
+        top:0; left:0;}
+#gnbSub li{float:left;}
+#gnbSub li:nth-child(1){margin-right:12px;}
+#gnbSub li:nth-child(2){margin-top:16px;}
+#gnbSub li a{}
+
+#utill{position:absolute; 
+       top:16px;
+       right:0;}
+#utill li{float:left; 
+          margin-right:15px;}
+#utill li:last-child{margin-right:0;}
+
+
+#gnb{width:fit-content;
+     margin:10px auto 0 auto;}
+#gnb li{float:left;
+        margin-right:71px;}
+#gnb li:last-child{margin-right:0;}
+
+#container{}
+.slider{}
+.slider .simg{}
+.slider .simg a{
+ display:block;/*인라인요소를 블락으로 만들기*/
+    width:100%;/*너비값을 꽉 차게 만듬*/
+    height: 480px;
+    background:url(../images/mainBanner_201710310442383740.jpg) no-repeat;
+    background-position: center 0
+}
+/*
+1. a태그에게 background 이미지를 넣어줘야하는 이유:
+   클릭을 해서 이동할 수 있는 면적이 넓어야하기 때문
+2. a태그는 기본적으로 inline속성이기 때문에
+background 이미지 뿐만이 아니라, 
+width, height값도 적용되지않는다.
+3. 그렇기 때문에 a태그에게 background속성을
+줘야 할 경우 반드시 a태그에게 display:block속성을
+선행시켜서 블락요소로 만들어 줘야 한다.
+
+*/
+
+
+
+
+/*container 본문 css*/
+
+#containerWrap{
+    width:940px;
+    margin:0 auto;
+    margin-top:46px;
+}
+
+.mainrow1{}/*하나의 라인인 section 태그*/
+.mainrow1 div{float:left; 
+              height:213px;}
+
+
+
+
+
+.mainrow1 #frch{width:205px;
+                margin-right:35px;}
+.mainrow1 #hollysmall{width:460px;
+                      margin-right:35px;}
+.mainrow1 #store{width:205px;}
+
+.mainrow1 #hollysmall ul{}
+.mainrow1 #hollysmall p{font-size:12px; color:#6f6f6f;
+                        margin-top:10px;}
+.mainrow1 #hollysmall ul li{float:left;
+                    background:url(../images/mall_bar01.gif) no-repeat right top;
+                    padding:10px 26px 0;
+                    margin-top:30px;}
+
+.mainrow1 #hollysmall ul li p{text-align: center;}          
+.mainrow1:after{display: block;
+                content: '';
+                clear: both;}
+
+.mainrow2:after{display: block;
+                content: '';
+                clear: both;}
+
+
+#hollysmall ul li:last-child{background:none;}
+
+
+.mainrow2{margin-top:33px; }
+.mainrow2 div{float:left;}
+
+.mainrow3{margin-top:33px;}
+.mainrow3 div{float:left;
+              width:205px;
+              height:93px;
+              margin-right: 35px;}
+.mainrow3 div a, dd, .mainrow3 div a p,
+.mainrow3 div a span{
+    color:#6f6f6f; 
+    font-size:12px;
+    line-height:14px;
+    /*행간을 설정해주는 속성: line-height*/
+}
+.icon{margin-top:6px;}
+.icon i{vertical-align: middle}
+
+#news dl dt{
+        width:153px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    /*공간값을 넘어가는 부산물들을 숨김*/
+    float:left;
+}
+#news dl dd{float:right;
+            margin-top:4px;}
+
+
+
+#quickmenu{margin-right:0 !important;}
+#quickmenu ul li{float:left; 
+                text-align:center;
+    background:url(../images/mall_bar01.gif) no-repeat;}
+#quickmenu ul li span{display: block;}
+#quickmenu ul li:first-child{background:none;
+                            padding-right:10px;}
+#quickmenu ul li:last-child{padding-left:10px;}
+
+.mainrow3 h3{margin-bottom:10px;}
+#news h3{margin-bottom:0;}
+.mainrow3:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.mainrow4{border-top:solid #b5121b 2px;
+         padding-top:30px;
+         margin-top:40px;
+          }
+.hollyslive:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.mainrow4 .hollyslive{margin-bottom:12px;}
+.mainrow4 .hollyslive h3{float:left;}
+.mainrow4 .hollyslive .sns_icon{float:left;}
+.mainrow4 dl{width:205px; height:58px; float:left;
+            margin-right:35px;}
+.mainrow4 dl dt{float:left;}
+.mainrow4 dl dd{float:right; width:145px;}
+.mainrow4 dl dd span{color:#36f; display: block;}
+.mainrow4 dl:last-child{margin-right:0;}
+
+.mainrow4:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+
+footer{
+    width:100%; height:150px;
+    background:url(../images/bg_footer.gif);
+    margin-top:100px;
+}
+
+#footerWrap{
+    width:940px;
+    margin:0 auto;
+    padding-top:35px;}
+
+#footerWrap ul{margin-bottom:25px;}
+
+#footerWrap ul:after{content:'';
+                     display: block;
+                     clear: both;
+                    }
+
+
+#footerWrap ul li{float:left;
+                 border-right:1px solid #fff;
+                 line-height: 12px;
+                 margin-right:5px;
+                 padding-right:5px;}
+#footerWrap ul li a{color:#fff;
+                   }
+
+#footerWrap ul li a:hover{
+                text-decoration: underline;
+              /* border-bottom:1px solid #fff;*/
+
+        }
+                /*vertical-align: 
+           1. text-top: 인라인 요소들중에서 가장 위에 있는
+                         것에 윗줄을 맞춤
+           2. middle: 인라인요소들의 가운데 정렬을 함
+           3. bottom: 인라인 요소들중 아래 정렬을 함
+                    */
+
+#footerWrap p{font-size:11px;
+              color:#de898e;}
+#footerWrap address{font-style:normal;
+                    font-size:11px;
+                    color:#de898e;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
